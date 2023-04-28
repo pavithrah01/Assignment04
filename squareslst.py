@@ -1,0 +1,5 @@
+lst = input("Enter a list of numbers separated by spaces: ")
+lst = list(map(int, lst.split()))
+result = list(map(lambda x: x**2, lst))
+print("Original List:", lst)
+print("List with all elements squared:", result)
